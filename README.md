@@ -23,9 +23,9 @@ The objective is to dynamically compute and update parking prices in real-time f
 
 | File                          | Description                                      |
 |------------------------------|--------------------------------------------------|
-| `notebook.ipynb`             | Main working notebook with all models           |
+| `NOTEBOOK.ipynb`             | Main working notebook with all models           |
 | `daily_price_final.jsonl`    | Output file with tumbling-window model results  |
-| `dataset.csv` _(optional)_   | Input parking stream dataset (if uploaded)      |
+| `dataset.csv`                | Input parking stream dataset (if uploaded)      |
 | `README.md`                  | You're here!                                    |
 | `problem_statement.pdf`      | Original project prompt                         |
 
