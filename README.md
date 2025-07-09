@@ -54,7 +54,7 @@ The objective is to dynamically compute and update parking prices in real-time f
 
 ## 📊 Visualization
 
-<img src="bokeh_plot.png" alt="Daily Price Plot" width="600"/>
+
 
 - Real-time Bokeh plot for dynamic pricing over time
 - Multiple lot support for future extension
