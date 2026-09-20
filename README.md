@@ -164,20 +164,6 @@ reliable deployment.
 
 ---
 
-## Talking points (for interviews)
-
-- **Real data, real integrity work:** found and handled 1.3% occupancy-over-
-  capacity rows; the loader flags and clips rather than trusting the feed.
-- **Explainable & bounded:** every price is capped to [0.5×, 2×] and every
-  coefficient is documented in `config.py`.
-- **Competitor-aware:** `NearestNeighbors` finds rival lots by geography (spatial
-  lookup) and a reactive rule factors their prices in.
-- **Learned + evaluated:** a gradient-boosting demand model (R² 0.86) and an
-  elasticity-based revenue/utilisation evaluation — not just rules, but a fit and
-  a measured impact, with assumptions stated.
-- **Streaming = batch:** one Model-2 function drives both, so they can't drift.
-- **Ships anywhere:** CI across three Python versions + a Docker image.
-
 ## Layout
 
 ```
