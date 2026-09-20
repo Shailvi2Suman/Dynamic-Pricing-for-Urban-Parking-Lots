@@ -1,0 +1,11 @@
+# One command to build and run the whole thing:  docker compose up --build
+# The volume mount lets you open data/dashboard.html on your host after the run.
+
+services:
+  pricing:
+    build: .
+    container_name: parking-pricing
+    volumes:
+      - ./data:/app/data
+    # Override the default run here if you want more days / a specific lot:
+    # command: python run_batch.py --days 30 --lot LOT03
