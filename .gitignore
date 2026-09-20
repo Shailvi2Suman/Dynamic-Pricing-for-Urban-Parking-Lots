@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Generated artefacts (keep data/dataset.csv, ignore outputs)
+data/priced_output.csv
+data/daily_price_final.jsonl
+data/priced_stream.csv
+data/dashboard.html
+dashboard.html
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

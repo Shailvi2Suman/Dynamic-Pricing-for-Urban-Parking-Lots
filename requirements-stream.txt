@@ -1,0 +1,3 @@
+# Optional real-time streaming layer (Linux/macOS). Heavy — install only when
+# you want to run src/stream_pipeline.py. The batch runner does not need this.
+pathway>=0.11
